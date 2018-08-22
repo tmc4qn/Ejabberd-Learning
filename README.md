@@ -1,1 +1,2 @@
-# Ejabberd-
+# Ejabberd
+2017年10月來到新東家，很奇妙的碰上我從以前到現在沒有摸過的ejabberd，也學習到一點點erlang的基礎，我相信沒有很多人聽過ejabberd這個IM框架，但我相信沒有人沒聽過skype、google hangout以及facebook的messenger，他們的底層都是從ejabberd來的，究竟ejabberd是什麼？怎麼安裝？以及怎麼修改它的原始碼，我會一個一個慢慢的介紹，在介紹之前先來講ejabberd的小故事。
