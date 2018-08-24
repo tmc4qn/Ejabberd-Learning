@@ -11,7 +11,7 @@ Ejabberd目前是可擴展/延伸的Jabber/XMPP伺服器，而E代表Erlang的�
 據說Facebook該開始也想要使用Erlang，但是由於優秀的Erlang工程師太難找而放棄了(有待考證)。
 
 # 目的
-由於Ejabberd在網路上的教學資源相較於其他語言(框架)並不多，入門有一定程度的門檻，有鑑於此想撰寫這篇文章來介紹修改Ejabberd的一些思路，廢話不多說就直接開始吧
+由於Ejabberd在網路上的教學資源相較於其他語言(框架)並不多，入門有一定程度的門檻，有鑑於此想撰寫這篇文章來介紹修改Ejabberd的一些思路，廢話不多說就直接開始吧。Ejabberd除了可以當作IM server外，也可以把它利用在IOT傳訊息的使用上，只要是訊息溝通的用途都可以利用Ejabberd幫你完成。
 
 # 安裝
 ```
@@ -21,8 +21,19 @@ git clone https://github.com/processone/ejabberd.git
 ```
 ./autogen.sh
 ```
+之後會產生configure，再下
+```
+./configure
+```
 這時候腳本會幫你檢查很多東西，會出現以下的訊息
 ![Imgur Image](https://i.imgur.com/ZpGpcfK.png)
+這時候就是依照系統指示安裝缺少的套件像是
+* erlang
+* libssl-dev
+* libexpat1-dev
+* libyaml-dev
+安裝好之後就下make，之後就是make install就沒問題了，看到以下畫面就是完成Ejabberd的安裝了!!
+![Imgur Image](https://i.imgur.com/pvLQLP7.png)
 
 # ref
 [Facebook 收購 Whatsapp：晚一步，就得付出巨大代價](http://technews.tw/2014/02/20/facebook-mobile-platform-strategy/)
