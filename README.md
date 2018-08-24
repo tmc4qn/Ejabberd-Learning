@@ -1,5 +1,5 @@
 # Ejabberd
-2017年10月來到新東家，很奇妙的碰上我從以前到現在沒有摸過的Ejabberd，也學習到一點點Erlang的基礎，我相信很少人聽過Ejabberd這個IM(Instant Message)框架，但我相信大家都聽過skype、google hangout、wahtsapp以及facebook的messenger，他們的底層都是從Ejabberd/Erlang來的，究竟ejabberd是什麼？怎麼安裝？以及怎麼修改它的原始碼，我會一個一個慢慢的介紹，在介紹之前先來講ejabberd的小故事。  
+2017年10月來到新東家，很奇妙的碰上我從以前到現在沒有摸過的Ejabberd，也學習到一點Erlang的基礎，我相信很少人聽過Ejabberd這個IM(Instant Message)框架，但我相信大家都聽過skype、google hangout、wahtsapp以及facebook的messenger，他們的底層都是從Ejabberd/Erlang來的，究竟Ejabberd是什麼？怎麼安裝？以及怎麼修改它的原始碼，我會一個一個慢慢的介紹，在介紹之前先來講ejabberd的小故事。  
 Ejabberd目前是可擴展/延伸的Jabber/XMPP伺服器，而E代表Erlang的意思;它支持多個伺服器，並且具有容錯處理，單台伺服器失效不影響整個cluster運作，而把ejabberd發揮得淋漓盡致的人我想whatsapp可以算是箇中翹楚，畢竟當初facebook也是花了190億美元收購whatsapp。
 
 # whatsapp服務端架構
@@ -39,8 +39,10 @@ apt-get install 慢慢安裝就可以了
 ![Imgur Image](https://i.imgur.com/pvLQLP7.png)
 
 # ref
-[Facebook 收購 Whatsapp：晚一步，就得付出巨大代價](http://technews.tw/2014/02/20/facebook-mobile-platform-strategy/)
-[WhatsApp 的一点分析](https://blog.caoyue.me/post/whatsapp-and-erlang)  
-[Ejabberd XMPP client iOS - Logic behind WhatsApp](https://www.youtube.com/watch?v=Vb0t8WlgBVE)  
-[如何学习XMPP协议](https://www.jianshu.com/p/37296f6ef09f)
+[1. Facebook 收購 Whatsapp：晚一步，就得付出巨大代價](http://technews.tw/2014/02/20/facebook-mobile-platform-strategy/)  
+[2. WhatsApp 的一点分析](https://blog.caoyue.me/post/whatsapp-and-erlang)  
+[3. Ejabberd XMPP client iOS - Logic behind WhatsApp](https://www.youtube.com/watch?v=Vb0t8WlgBVE)  
+[4. 如何学习XMPP协议](https://www.jianshu.com/p/37296f6ef09f)  
+[5. Ejabberd github](https://github.com/processone/ejabberd)  
+[6. Process One(一些Ejabberd的doc都在這邊)](https://www.process-one.net/en/ejabberd/)  
 
