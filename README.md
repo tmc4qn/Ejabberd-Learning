@@ -45,4 +45,5 @@ apt-get install 慢慢安裝就可以了
 [4. 如何学习XMPP协议](https://www.jianshu.com/p/37296f6ef09f)  
 [5. Ejabberd github](https://github.com/processone/ejabberd)  
 [6. Process One(一些Ejabberd的doc都在這邊)](https://www.process-one.net/en/ejabberd/)  
+[7. How to install Ejabberd 18.01 XMPP Server with Mysql on Ubuntu 16.04](https://medium.com/modern-sysadmin/how-to-install-ejabberd-18-01-xmpp-server-with-mysql-on-ubuntu-16-04-f0facededf2e)
 
