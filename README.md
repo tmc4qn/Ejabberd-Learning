@@ -23,7 +23,7 @@ git clone https://github.com/processone/ejabberd.git
 ```
 之後會產生configure，再下
 ```
-./configure
+./configure --enable-mysql
 ```
 這時候腳本會幫你檢查很多東西，會出現以下的訊息
 ![Imgur Image](https://i.imgur.com/ZpGpcfK.png)
