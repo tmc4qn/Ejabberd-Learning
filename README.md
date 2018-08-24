@@ -1,5 +1,5 @@
 # Ejabberd
-註:本專案的Ejabberd版本是17.11版
+註:本專案的Ejabberd版本是17.11版  
 2017年10月來到新東家，很奇妙的碰上我從以前到現在沒有摸過的Ejabberd，也學習到一點Erlang的基礎，我相信很少人聽過Ejabberd這個IM(Instant Message)框架，但我相信大家都聽過skype、google hangout、wahtsapp以及facebook的messenger，他們的底層都是從Ejabberd/Erlang來的，究竟Ejabberd是什麼？怎麼安裝？以及怎麼修改它的原始碼，我會一個一個慢慢的介紹，在介紹之前先來講ejabberd的小故事。  
 Ejabberd目前是可擴展/延伸的Jabber/XMPP伺服器，而E代表Erlang的意思;它支持多個伺服器，並且具有容錯處理，單台伺服器失效不影響整個cluster運作，而把ejabberd發揮得淋漓盡致的人我想whatsapp可以算是箇中翹楚，畢竟當初facebook也是花了190億美元收購whatsapp。
 
