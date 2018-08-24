@@ -33,6 +33,8 @@ git clone https://github.com/processone/ejabberd.git
 * libexpat1-dev
 * libyaml-dev
 
+apt-get install 慢慢安裝就可以了
+
 安裝好之後就下make，之後就是make install就沒問題了，看到以下畫面就是完成Ejabberd的安裝了!!
 ![Imgur Image](https://i.imgur.com/pvLQLP7.png)
 
