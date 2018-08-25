@@ -38,7 +38,7 @@ apt-get install 慢慢安裝就可以了
 安裝好之後就下make，之後就是make install就沒問題了，看到以下畫面就是完成Ejabberd的安裝了!!
 ![Imgur Image](https://i.imgur.com/CKsC6d0.png)
 
-[下一篇:如何執行Ejabberd並利用pidgin進行連線](https://github.com/tmc4qn/Ejabberd-Learning/blob/master/1.%20Run%20Ejabberd.md)
+[下一篇:如何執行Ejabberd並利用pidgin進行連線](https://github.com/tmc4qn/Ejabberd-Learning/blob/master/1.%20執行Ejabberd與pidgin連線.md)
 
 # ref
 [1. Facebook 收購 Whatsapp：晚一步，就得付出巨大代價](http://technews.tw/2014/02/20/facebook-mobile-platform-strategy/)  
