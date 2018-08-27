@@ -1,1 +1,4 @@
+# Ejabberd auth external
+其實我不知道大家有沒有發現，Ejabberd註冊完會員時，他的帳號密碼存的是明碼，如下圖  
+[Imgur](https://i.imgur.com/s4d39TY.png)
 
